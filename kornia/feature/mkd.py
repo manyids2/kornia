@@ -2,7 +2,7 @@ from typing import Union, Tuple, Dict, List
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from kornia import pi
+from kornia.constants import pi
 from kornia.utils import create_meshgrid
 from kornia.geometry.conversions import cart2pol
 from kornia.filters import SpatialGradient, GaussianBlur2d
